@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(13, 25, 32, 0.993);
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    background-color: rgb(250,249,246);
+    color: rgb(45, 28, 155);
+    padding: 1rem 2rem ;
+    max-width:max-content;
+    border-radius: 0.3rem;
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+}
+.container img{
+    width: 100px;
+}
+.title{
+    width: 52vw;
+    padding: 5px;
+}
+.title h1{
+    font-size: 45px;
+    text-align: center;
+}
+.beauty{
+    background-color: rgba(202, 59, 227, 0.605);
+    width: 52vw;
+    padding: 5px;
+    border-radius: 0.3rem;
+}
+.beautiful img{
+    width: 52vw;
+}
+.construct{
+    background-color: rgb(0, 255, 145);
+    width: 52vw;
+    padding: 5px;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+}
+.construction img{
+    width: 52vw;
+}
+p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.footer{
+    color: rgba(26, 26, 143, 0.913);
+    text-align: center;
+}
+.footer p{
+    font-size: 10px;
+    text-align: end;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+
+@media screen and (max-width: 782px) {
+    .title h1{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .container img{
+        width: 60px;
+    }
+    .title h1{
+        font-size: 25px;
+    }
+    .beautiful img{
+        width: 52vw;
+    }
+    .construction img{
+        width: 52vw;
+    }
+    .beauty h2{
+        font-size: 15px;
+    }
+    .construct h2{
+        font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .footer a{
+        text-decoration: none;
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .title h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .title h1{
+        font-size: 15px;
+    }
+    .footer p{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 261px) {
+    .title h1{
+        font-size: 10px;
+    }
+}
